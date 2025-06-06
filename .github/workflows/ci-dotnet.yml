@@ -33,8 +33,8 @@ jobs:
 
       # 4. Compila la solución sin volver a restaurar
       - name: Build solution
-        run: dotnet build MiSolucion.sln --no-restore --configuration Release
+        run: dotnet build Practica14.sln --no-restore --configuration Release
 
       # 5. Ejecuta todos los tests de NUnit
       - name: Run tests
-        run: dotnet test MiSolucion.sln --no-build --configuration Release --verbosity normal
+        run: dotnet test Practica14.sln --no-build --configuration Release --verbosity normal
