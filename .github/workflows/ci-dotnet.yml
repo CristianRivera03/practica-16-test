@@ -1,0 +1,40 @@
+# .github/workflows/ci-dotnet.yml
+
+name: .NET CI with NUnit
+
+on:
+  push:
+    branches:
+      - main
+      - develop
+  pull_request:
+    branches:
+      - main
+      - develop
+
+jobs:
+  build-and-test:
+    runs-on: windows-latest
+
+    steps:
+      # 1. Clona el repositorio
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      # 2. Instala el SDK de .NET (ajusta la versión según necesites)
+      - name: Setup .NET SDK
+        uses: actions/setup-dotnet@v3
+        with:
+          dotnet-version: '7.0.x'
+
+      # 3. Restaura paquetes NuGet para toda la solución
+      - name: Restore dependencies
+        run: dotnet restore Practica14.sln
+
+      # 4. Compila la solución sin volver a restaurar
+      - name: Build solution
+        run: dotnet build MiSolucion.sln --no-restore --configuration Release
+
+      # 5. Ejecuta todos los tests de NUnit
+      - name: Run tests
+        run: dotnet test MiSolucion.sln --no-build --configuration Release --verbosity normal

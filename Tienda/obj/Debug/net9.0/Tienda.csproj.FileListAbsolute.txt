@@ -1,0 +1,14 @@
+C:\Users\cr853\Documents\Documentos Universidad\Practicas POO\Practica14\Tienda\bin\Debug\net9.0\Tienda.exe
+C:\Users\cr853\Documents\Documentos Universidad\Practicas POO\Practica14\Tienda\bin\Debug\net9.0\Tienda.deps.json
+C:\Users\cr853\Documents\Documentos Universidad\Practicas POO\Practica14\Tienda\bin\Debug\net9.0\Tienda.runtimeconfig.json
+C:\Users\cr853\Documents\Documentos Universidad\Practicas POO\Practica14\Tienda\bin\Debug\net9.0\Tienda.dll
+C:\Users\cr853\Documents\Documentos Universidad\Practicas POO\Practica14\Tienda\bin\Debug\net9.0\Tienda.pdb
+C:\Users\cr853\Documents\Documentos Universidad\Practicas POO\Practica14\Tienda\obj\Debug\net9.0\Tienda.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\cr853\Documents\Documentos Universidad\Practicas POO\Practica14\Tienda\obj\Debug\net9.0\Tienda.AssemblyInfoInputs.cache
+C:\Users\cr853\Documents\Documentos Universidad\Practicas POO\Practica14\Tienda\obj\Debug\net9.0\Tienda.AssemblyInfo.cs
+C:\Users\cr853\Documents\Documentos Universidad\Practicas POO\Practica14\Tienda\obj\Debug\net9.0\Tienda.csproj.CoreCompileInputs.cache
+C:\Users\cr853\Documents\Documentos Universidad\Practicas POO\Practica14\Tienda\obj\Debug\net9.0\Tienda.dll
+C:\Users\cr853\Documents\Documentos Universidad\Practicas POO\Practica14\Tienda\obj\Debug\net9.0\refint\Tienda.dll
+C:\Users\cr853\Documents\Documentos Universidad\Practicas POO\Practica14\Tienda\obj\Debug\net9.0\Tienda.pdb
+C:\Users\cr853\Documents\Documentos Universidad\Practicas POO\Practica14\Tienda\obj\Debug\net9.0\Tienda.genruntimeconfig.cache
+C:\Users\cr853\Documents\Documentos Universidad\Practicas POO\Practica14\Tienda\obj\Debug\net9.0\ref\Tienda.dll
